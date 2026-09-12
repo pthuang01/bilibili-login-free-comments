@@ -3,7 +3,7 @@
 # Bilibili 免登入顯示留言<br />Bilibili Login-Free Comment Display
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
-[![Version](https://img.shields.io/badge/Version-1.0.1-green.svg)](https://github.com/pthuang01/bilibili-login-free-comments)
+[![Version](https://img.shields.io/badge/Version-1.0.2-green.svg)](https://github.com/pthuang01/bilibili-login-free-comments)
 [![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-安裝-960000)](https://update.greasyfork.org/scripts/595475/Bilibili%20%E5%85%8D%E7%99%BB%E5%85%A5%E9%A1%AF%E7%A4%BA%E7%95%99%E8%A8%80.user.js)
 [![Platform](https://img.shields.io/badge/Platform-Tampermonkey%20%7C%20Violentmonkey-orange.svg)](#-安裝方式)
 

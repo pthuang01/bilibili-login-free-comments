@@ -4,7 +4,7 @@
 // @name:zh-CN           Bilibili 免登录加载评论
 // @name:en              Bilibili Login-Free Comment Display
 // @namespace            https://github.com/pthuang01
-// @version              1.0.1
+// @version              1.0.2
 // @description          無須登入即可自動載入留言區，提供完整、原生的瀏覽體驗
 // @description:zh-TW    無須登入即可自動載入留言區，提供完整、原生的瀏覽體驗
 // @description:zh-CN    无需登录即可自动加载评论区，提供完整、原生的浏览体验
@@ -252,6 +252,19 @@
         .sub-reply-item .sub-user-info { margin-right: 5px !important; }
       `;
       document.head.appendChild(otherCSS);
+
+      // sailing card font CSS
+      const sailingFontCSS = document.createElement('style');
+      sailingFontCSS.textContent = `
+        @font-face {
+          font-family: 'fans-num';
+          src: url('https://i0.hdslb.com/bfs/activity-plat/static/20250825/a370089fc7c797ab7a9d638df8c9cbf7/udPIK7Y9ix.ttf');
+        }
+        .user-sailing-text .sailing-text {
+          font-family: 'fans-num', fanscard, sans-serif !important;
+        }
+      `;
+      document.head.appendChild(sailingFontCSS);
 
       // dynamic page CSS
       if (Config.RE.dynamic.test(Env.global.location.href) || Config.RE.opus.test(Env.global.location.href)) {
