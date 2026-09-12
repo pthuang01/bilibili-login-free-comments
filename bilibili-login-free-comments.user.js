@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name                 Bilibili 免登入顯示留言
+// @name:zh-TW           Bilibili 免登入顯示留言
 // @name:zh-CN           Bilibili 免登录加载评论
 // @name:en              Bilibili Login-Free Comment Display
 // @namespace            https://github.com/pthuang01
-// @version              1.0.0
+// @version              1.0.1
 // @description          無須登入即可自動載入留言區，提供完整、原生的瀏覽體驗
+// @description:zh-TW    無須登入即可自動載入留言區，提供完整、原生的瀏覽體驗
 // @description:zh-CN    无需登录即可自动加载评论区，提供完整、原生的浏览体验
 // @description:en       Automatically load comment areas without logging in, providing a complete and native browsing experience.
 // @license              GPL-3.0
